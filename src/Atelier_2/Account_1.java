@@ -14,19 +14,6 @@ public class Account_1 {
 		return interer;
 
 	}
-	public static void main(String[] args) {
-		Account_1 one = new Account_1();
-		one.nom = "El Alami hassan";
-		one.adresse = "safi";
-		one.solde = 14765.8;
-		one.afficherInfosCompte();
-		one.calculerInterer(0.7);
-		Account_1 two = new Account_1();
-		two.nom = "Karimi Khalid";
-		two.adresse = "casablanca";
-		two.solde = 7654;
-		two.afficherInfosCompte();
-		one.calculerInterer(0.7);
-	}
+	
 
 }

@@ -18,18 +18,7 @@ public class Dog1 {
 	void manger(String food) {
 		System.out.println(" je mange du  "+food);
 	}
-	public static void main(String[] args) {
-		Dog1 Rex = new Dog1();
-		Rex.name = "REX :";
-		Rex.aboyer("ghhhhhh!!! wwaaarf!!");
-		Rex.manger("viande");
-		
-		Dog1 Max = new Dog1();
-		Max.name = "Max :";
-		Max.aboyer("Iwiw!!Awaw!!");
-		Max.manger("Poisson");
-		
-	}
+	
 
 }
 

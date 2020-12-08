@@ -30,11 +30,6 @@ public class Exercise_5 {
 		return solde;
 	}
 
-	public static void main(String[] args) {
-		Exercise_5 hh=new Exercise_5();
-		hh.setAdresse("eeee");
-		System.out.println("your adresse : "+ hh.getAdresse());
-		
-	}
+	
 
 }

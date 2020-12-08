@@ -32,12 +32,6 @@ public class Exercise_6 {
 
 	}
 
-	public static void main(String[] args) {
-		Exercise_6 Test = new Exercise_6();
-		Test.setSolde(174);
-		int inpot = input.nextInt();
-		Test.retierMontantSolde(inpot);
-		System.out.println(Test.getSolde());
-	}
+	
 
 }

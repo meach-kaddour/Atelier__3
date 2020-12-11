@@ -13,7 +13,7 @@ public class Dog {
 	}
 
 	String manger(String food) {
-		System.out.println(" je mange " + food);
+		System.out.println(" je mange du  " + food);
 		return food;
 	}
 

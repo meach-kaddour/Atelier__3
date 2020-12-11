@@ -3,7 +3,7 @@ package Atelier_2;
 import java.util.Scanner;
 
 public class Exercise_6 {
-	static Scanner input = new Scanner(System.in);
+	
 	private String nom;
 	private String adresse;
 	private double solde;
@@ -27,7 +27,7 @@ public class Exercise_6 {
 			this.solde = solde - montantRetirer;
 
 		} else {
-			System.out.println("montant plus de votre solde");
+			System.out.println("Votre solde est insuffisant");
 		}
 
 	}

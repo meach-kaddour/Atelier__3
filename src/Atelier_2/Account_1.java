@@ -8,10 +8,10 @@ public class Account_1 {
 		System.out.println(nom + " habite : (" + adresse + ")- infos solde " + solde + " DH");
 	}
 
-	double calculerInterer(double tauxInteret) {
+	void calculerInterer(double tauxInteret) {
 		double interer = (int)(solde * tauxInteret/100);
 		System.out.println("votre interet "+interer);
-		return interer;
+		
 
 	}
 	

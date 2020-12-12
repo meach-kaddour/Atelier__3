@@ -98,23 +98,3 @@ Questions :
 
 
 
-
-Modalités pédagogiques :
-•	Durée 2 jours
-•	Le travail individuel
-
-Voici les concepts que vous devez appréhender :
-•	Les constructeurs 
-•	Héritage 
-•	Polymorphisme
-Livrable :
-Un dépôt Git dans lequel on retrouve chaque exercice dans un fichier séparé.
-Critères de performance
-Le formateur peut exécuter le code sur sa propre machine.
-Le code est livré avant la date et l’heure limite.
-Modalités d'évaluation
-Une présentation de la démonstration.
-Compétences visées :
-Développer la partie back-end d’une interface utilisateur web
-
-

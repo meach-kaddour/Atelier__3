@@ -13,7 +13,7 @@ public abstract  class Person {
 		this.adresse = adresse;
 		this.dateNaissance = dateNaissance;
 	}
-
+	
 	Person() {
 	}
 

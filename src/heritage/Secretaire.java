@@ -2,8 +2,6 @@ package heritage;
 
 public class Secretaire extends Person {
 	String numeroCompte;
-	
-
 	@Override
 	public String toString() {
 		return "Secretaire [numeroCompte=" + numeroCompte + ", nom=" + nom + ", prenom=" + prenom + ", adresse="
@@ -17,12 +15,12 @@ public class Secretaire extends Person {
 
 	@Override
 	public void ecrirePersonne() {
-	System.out.println("name :"+nom);
-	System.out.println("prenom :"+prenom);
-	System.out.println("adresse :"+adresse);
-	System.out.println("ville :"+ville);
-	System.out.println("dateNaissance"+dateNaissance);
-	System.out.println("nNumero de bureau :"+numeroCompte);
+		System.out.println("name :" + nom);
+		System.out.println("prenom :" + prenom);
+		System.out.println("adresse :" + adresse);
+		System.out.println("ville :" + ville);
+		System.out.println("dateNaissance" + dateNaissance);
+		System.out.println("nNumero de bureau :" + numeroCompte);
 	}
 
 }

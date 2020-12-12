@@ -1,24 +1,43 @@
 package compteB;
 
 public class compteEpargne extends CompteBancaire {
-	
-	public void setSolde(double solde) {
-		if(solde>200) {
-			this.setSolde(solde);
+	double taux =10;
+	@Override
+	public void setSolde(double s) {
+		if(s>200) {
+			this.solde=s;
 		}else {
-			System.out.println("compte epargne doit initialiser a un montant superieur de 200");
+			this.solde=0;
+			System.out.println("compte epargne doit initialiser a un montant superieur de 200 dh");
 		}
 	}
 	
-	public void calculerInterer(double tauxInteret) {
-		if(getSolde()>200) {
-			double interer = getSolde() * tauxInteret/100;
-			System.out.println("votre interet "+interer);
-		}else {
-			System.out.println("error");;
-		}
+	compteEpargne() {
 		
 	}
+
+	public compteEpargne(String nom, long numeroCompte, double s) {
+		super(nom, numeroCompte, s);
+		if(s>200) {
+			this.solde=s;
+		}else {
+			this.solde=0;
+			System.out.println("compte epargne doit initialiser a un montant superieur de 200 dh");
+		}
+	}
+
+	public void calculerInterer() {
+		solde=solde*(1+taux/100);
+	}
+
+	@Override
+	public String toString() {
+		return "compteEpargne [taux d'interet =" + taux + "  Name =" + getName() +", solde=" + solde +  " Numero de Compte ="
+				+ getNumeroCompte() + "]";
+	}
+
+	
+	
 	
 
 }
